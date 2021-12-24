@@ -52,7 +52,7 @@ h1{
     text-align:center;
     width: 80px;
     
-    background-image: url(/SVG/button.svg);
+    background-image: url(/button.svg);
     padding: 7px;
     border: none;
     flex-shrink: 0;
