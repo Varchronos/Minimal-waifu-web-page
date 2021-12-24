@@ -1,0 +1,86 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #F0F8FF;
+    font-family:'Roboto',sans-serif ;
+}
+.flex-container{
+    display: flex;
+    align-items:stretch;
+    justify-content:space-around;
+    height: 100vh;
+}
+
+.box{
+    margin: 10px;
+    padding: 10px;
+    width:100%;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content:top;
+    /* background-color: aqua; */
+}
+
+h1{
+    margin-top: 25vh;
+    font-size: 60px;
+    padding: 10px 0px;
+    opacity: 75%;
+}
+
+#about p{
+    margin: 10px 0px;
+    width: 70%;
+    padding: 10px 0px;
+    font-size: 28px;
+    line-height:40px;
+    margin-bottom: 35px;
+    opacity: 75%;
+
+    
+}
+#git_btn{
+    position: relative;
+    left: 25%;
+    text-align:center;
+    width: 80px;
+    
+    background-image: url(/SVG/button.svg);
+    padding: 7px;
+    border: none;
+    flex-shrink: 0;
+    
+}
+#git_btn:hover{
+    cursor:pointer;
+}
+
+#img_area{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+#yukino img{
+    height: 70vh;
+    position: relative;
+    left: 32%;
+    margin:5px;
+    padding:10px;
+}
+#img_area #img_txt p{
+    font-size: 20px;
+    text-align: center ;
+    opacity: 75%;
+
+    
+}
+
+
+
